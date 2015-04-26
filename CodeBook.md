@@ -15,28 +15,28 @@ To obtain the tidy data file, follow the next steps:
 
 ## Variables
 
-# File URL
+### File URL
 fileURL 
 
-# Labels
+### Labels
 activityLbls
 featureLbls 
 
-# Training data
+### Training data
 XTrain
 YTrain
 subjectTrain
 
-# Test data
+### Test data
 XTest
 YTest
 subjectTest
 
-# Merge
+### Merge
 train
 test
 tidyData
 
-# Index
+### Index
 activityIdx
 

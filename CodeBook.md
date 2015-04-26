@@ -13,3 +13,30 @@ To obtain the tidy data file, follow the next steps:
 * 3. Change to a more descriptive names for each activity in the dataset.
 * 4. Create a second tidy dataset with the mean values for each variable on each activity per subject.
 
+## Variables
+
+# File URL
+fileURL 
+
+# Labels
+activityLbls
+featureLbls 
+
+# Training data
+XTrain
+YTrain
+subjectTrain
+
+# Test data
+XTest
+YTest
+subjectTest
+
+# Merge
+train
+test
+tidyData
+
+# Index
+activityIdx
+

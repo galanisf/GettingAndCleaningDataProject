@@ -40,7 +40,7 @@ for (currentActivityLabel in activityLbls$activityName) {
     activityIdx <- activityIdx + 1
 }
 
-#### A dataset is created with the mean of each variable for each activity and each subject
+#### A dataset is created with the mean values for each variable on each activity per subject
 tidyData$Activity <- as.factor(tidyData$Activity)
 tidyData$SubjectId <- as.factor(tidyData$SubjectId)
 tidyAverage = aggregate(tidyData, by=list(Subject = tidyData$SubjectId, ActivityName = tidyData$Activity), mean)
